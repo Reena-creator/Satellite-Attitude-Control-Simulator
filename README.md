@@ -59,31 +59,15 @@ The simulator includes realistic spacecraft control concepts such as reaction wh
 
 ### Satellite Dynamics
 
-\[
-I_{sat}\dot{\omega}
-=
-T_{control}
-+
-T_{disturbance}
-\]
+`I_sat × dω/dt = T_control + T_disturbance`
 
 ### PD Controller
 
-\[
-T
-=
--K_p\theta
--
-K_d\omega
-\]
+`T = -Kpθ - Kdω`
 
 ### Reaction Wheel Dynamics
 
-\[
-I_{rw}\dot{\omega}_{rw}
-=
--T_{control}
-\]
+`I_rw × dω_rw/dt = -T_control`
 
 ---
 
